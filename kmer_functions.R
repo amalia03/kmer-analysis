@@ -1,3 +1,5 @@
+#!/usr/bin/ Rscript
+
 dyn.load("/directory/to/C_kmer_functions/R_c_plugins/nuc_kmer_count.so")
 
 kmerify <- function(seqs,k.size){
