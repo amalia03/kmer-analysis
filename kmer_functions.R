@@ -52,8 +52,7 @@ dens.pixel.plot <- function(kmers.a, kmers.b, pixlevel=70, x.name="", y.name="",
          2:(length(pal2)+1),
          col=pal2[seq(1, length(pal2),1)],
          border=pal2
-         )
-         
+         )        
            text(x=0.8, y=c(1.5, 1+length(pal2)/2, length(pal2)+0.5),
          labels=c(u.ab[2], u.ab[round(length(u.ab)/2, digits=0)], u.ab[length(u.ab)]))
 
